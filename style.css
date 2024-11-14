@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 255, 255);
+    font-family: "Poppins", cursive;
+}
+.linha-um{
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-left: auto;
+}
+.foto-principal{
+    margin: auto;
+    height: 330px;
+    width: 700px;
+
+}
+.linha-text{
+    display: flex;
+    margin-left: 500px;
+    gap: 80px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    align-self: flex-start; 
+    font-weight: bold;
+    font-size: 4em;
+    color: #070707;
+    margin-bottom: 10px;
+}
+.buttom-normal{
+   border-bottom: #fafafa;
+   border-radius: 18px;
+   background-color: #0f253f;
+   font-size: 2rem;
+   color:#fafafa;
+   height: 100px;
+   width: 240px;
+   margin-top: 26px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foto-principal{
+    position: absolute;
+    top: 52%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    height: 540px;
+    width: 789px;
+}
